@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Order - MARS </title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1270px )" href="/static/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/static/logo/logo_01.png.png" alt="">
+        </div>
+        <ul>
+            <li class="navigation"> <a href="#home">Home</a> </li>
+            <li class="navigation"> <a href="#services-container">Services</a> </li>
+            <li class="navigation"> <a href="#clients-container">Our Clients</a> </li>
+            <li class="navigation"> <a href="#contact-container">Contact Us</a> </li>
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Welcome to Meet'n'Eat</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia ut tempore unde quisquam,
+            nesciunt deleniti earum? Vel nam minima labore corporis voluptas rem ut totam harum velit modi dolorum
+            consequuntur, beatae deleniti fugiat cum at repudiandae quas iste vero. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Qui quam sapiente optio rerum nostrum nemo distinctio cum quas voluptatum ex
+            eum eius natus, incidunt aut, mollitia odit deleniti blanditiis possimus!</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="primary-h center">Our Services</h1>
+        <div id="services">
+            <div class="box" id="box1">
+                <img src="static/logo services/pizza2.png.png" alt="">
+                <h1 class="secondary-h center">Food Ordering</h1>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus illum optio
+                    quaerat, doloremque
+                    rerum corporis veritatis vel magni sapiente sunt, eligendi doloribus ab enim quisquam? Vitae
+                    pariatur
+                    sapiente porro quae est molestias rerum!</p>
+            </div>
+            <div class="box" id="box2">
+                <img src="static/logo services/burger2.png.png" alt="">
+                <h1 class="secondary-h center">Bulk Ordering</h1>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus illum optio
+                    quaerat, doloremque
+                    rerum corporis veritatis vel magni sapiente sunt, eligendi doloribus ab enim quisquam? Vitae
+                    pariatur
+                    sapiente porro quae est molestias rerum!</p>
+            </div>
+            <div class="box" id="box3">
+                <img src="/static/logo services/delivery.png.png" alt="">
+                <h1 class="secondary-h center">Home Delivery</h1>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus illum optio
+                    quaerat, doloremque
+                    rerum corporis veritatis vel magni sapiente sunt, eligendi doloribus ab enim quisquam? Vitae
+                    pariatur
+                    sapiente porro quae est molestias rerum!</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="clients-container">
+        <h1 class="primary-h center">Our Clients</h1>
+        <div id="client">
+            <div class="clients-item">
+                <img src="/static/logo clients/images (2).png" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (20).jpeg" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (21).jpeg" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (22).jpeg" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (23).jpeg" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (3).png" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (4).png" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (5).png" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="/static/logo clients/images (6).png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact-container">
+        <h1 class="primary-h center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/email" method="POST">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Contact No.: </label>
+                    <input type="number" name="contact" id="contact-no" placeholder="Enter Your Mobile Number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+                <div id="send">
+                    <input value="submit" type="Submit"></input>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div id="footer" class="center">
+            Copyright &copy; www.mars.com All Right Reserved!
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
+        $('form').on('submit', (e) =>{
+            e.preventDefault();
+
+            const email = $('#email').val().trim();
+            const subject = $('#name').val().trim();
+            const contact = $('#contact-no').val().trim();
+            const textt = $('#text').val().trim();
+            const text = `The Customer Name is "${subject}". His Contact number is "${contact}". His Message is : "${textt}".`;
+
+            const data = {
+                subject,
+                email,
+                text
+            };
+
+            $.post('/email', data , function () {
+                console.log('data recieved by server');
+                
+            });
+        });
+
+
+
+    </script>
+
+
+</body>
+
+</html>

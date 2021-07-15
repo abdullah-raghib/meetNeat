@@ -1,0 +1,19 @@
+{
+  "name": "send_mail",
+  "version": "1.0.0",
+  "description": "sending details to mail",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "meetneat"
+  ],
+  "author": "Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.2",
+    "nodemailer-mailgun-transport": "^2.1.3"
+  }
+}

@@ -1,0 +1,109 @@
+/* Navigation Bar  */
+#navbar{
+    flex-direction: column;
+    overflow: hidden;
+}
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 4px 6px;
+    margin: 2px 5px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Home Section  */
+#home{
+    height: 303px;
+    margin: 10px 10px;
+    overflow: hidden;
+}
+#home p{
+    font-size: 13px;
+}
+#home h1{
+    font-size: 23px;
+    margin-top: 10px;
+}
+#home::before{
+    height: 430px;
+}
+#home::after{
+    height: 430px;
+}
+
+/* Services Section  */
+#services-container{
+    height: 100%;
+}
+#services{
+    flex-direction: column;
+}
+
+#services-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    /* height: ; */
+    background: url(background/bg2.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.51;
+    height: 1366px;
+}
+/* Clients Section  */
+#clients-container {
+    background-color: white;
+    height: 100%;
+    padding-top: 0px;
+}
+
+
+#client {
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 33px 0px;
+}
+/* Contact Section  */
+#contact-box form {
+    width: 80%;
+    padding-bottom: 20px;
+}
+#send {
+    display: block;
+    margin: auto;
+    width: 131px;
+}
+/* Footer  */
+footer {
+    font-size: 8px;
+}
+/* Utility Classes */
+.btn{
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.primary-h{
+    font-size: 2.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    z-index: -33;
+    padding-top: 39px;
+}
+.secondary-h{
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: black;
+}
