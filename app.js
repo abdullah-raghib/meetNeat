@@ -3,7 +3,7 @@ const sendMail = require('./mail');
 const app = express();
 const bodyparser = require("body-parser");
 const path = require('path');
-const port = 8080;
+const port = process.env.PORT || 8080;
 // for giving access to our static folder
 app.use("/static", express.static("static"));
 
@@ -32,4 +32,6 @@ app.get('/',(req,res) => {
     res.sendFile(path.join(__dirname,'views','index.html'));
 });
 
-app.listen(port,()=> console.log('my app is running on port 8080'));
+app.listen(port,()=> {
+    console.log(`my app is running on port at ${port}`);
+});
